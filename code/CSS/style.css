@@ -1,0 +1,52 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #F0F4FF;
+}
+.main{
+	padding: 10px;
+}
+button{
+	width: 100%;
+}
+.nav{
+	margin: 0px;
+	padding: 10px;
+	background: #5D6580;
+}
+a{
+	padding-right: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+a:active{
+	color: darkblue;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.table{
+	margin: 20px;
+	border: 1px solid #5D6580;
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table td{
+	padding: 5px 10px;
+	border: 1px solid #eee;
+	text-align: left;
+}
+.table tr:nth-child(odd){
+	background: #fff;
+}
+.table tr:nth-child(even){
+	background: #F7F7F7;
+}
+.table tr:hover td {
+  background: #e8edff;
+}
